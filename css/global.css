@@ -1,0 +1,41 @@
+@import "../css/fonts.css";
+@import "../css/button.css";
+@import "../css/variables.css";
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Jost", Arial;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1111px;
+  width: 100%;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}

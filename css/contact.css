@@ -1,0 +1,70 @@
+@import "./navigation.css";
+@import "./global.css";
+@import "./footer.css";
+@import "./about.css";
+.form {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  max-width: 111.1rem;
+  max-height: 48rem;
+  background-color: var(--peach-color);
+  border-radius: 1.5rem;
+  padding-bottom: 7rem;
+}
+.labels {
+  display: flex;
+  padding: 5.5rem 9.6rem 5.5rem 0;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact-main-bg {
+  position: absolute;
+  z-index: 1;
+  bottom: -4rem;
+  left: -5.7rem;
+}
+.contact-title {
+  max-width: 54rem;
+  padding: 13.5rem 0 16rem 9.5rem;
+}
+.contact-title h1 {
+  font-size: var(--h1-fs);
+  line-height: var(--h1-2-ln);
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+.contact-title p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--white-color);
+  max-width: 45.8rem;
+  padding-top: 3.2rem;
+}
+.labels input {
+  outline-style: none;
+  z-index: 2;
+  border: none;
+  padding: 2.5rem 26.9rem 1rem 1.6rem;
+  background-color: rgba(231, 129, 107, 1);
+  border-bottom: 1px solid var(--dark-white);
+  color: var(--dark-white);
+  opacity: 50%;
+}
+span {
+  display: flex;
+  justify-content: right;
+}
+.textarea {
+  padding-bottom: 5rem;
+}
+input::placeholder {
+  color: var(--dark-white);
+}
+.canada-australia-uk-main {
+  padding-top: 16rem;
+}
+.designo {
+  margin-top: 0;
+}

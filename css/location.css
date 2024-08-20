@@ -1,0 +1,47 @@
+@import "./navigation.css";
+@import "./global.css";
+@import "./footer.css";
+.canada-uk-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3.2rem;
+}
+.canada-uk {
+  padding: 8.8rem 9rem;
+  width: 70rem;
+  height: 32.6rem;
+  background-color: var(--dark-white);
+  border-radius: 1.5rem;
+  position: relative;
+}
+.canada-uk h1 {
+  font-size: var(--h1-fs);
+  line-height: var(--h1-2-ln);
+  color: var(--peach-color);
+  padding-bottom: 2.4rem;
+  text-transform: capitalize;
+}
+.canada-uk p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--dark-gray);
+}
+.canada-uk h4 {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--dark-gray);
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-canada-uk img {
+  border-radius: 1.5rem;
+}
+.location-two-cicrle {
+  position: absolute;
+  bottom: 0rem;
+  left: 5rem;
+}

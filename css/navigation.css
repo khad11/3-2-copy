@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.4rem 0;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+}
+.menu a {
+  color: var(--dark-gray);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  letter-spacing: var(--h2-ls);
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.navigation img {
+  width: 19.6rem;
+  height: 2.4rem;
+}

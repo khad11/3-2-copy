@@ -1,0 +1,92 @@
+footer {
+  background-color: var(--black-collor);
+  position: relative;
+}
+
+.lets-talk-main {
+  background-color: var(--peach-color);
+  width: 111.1rem;
+  position: absolute;
+  height: 29.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 9.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 19rem;
+
+  bottom: 10rem;
+}
+.footer-bg-img {
+  position: absolute;
+  bottom: -150px;
+  left: 250px;
+}
+.lets-talk-title h2 {
+  font-size: var(--h2-fs);
+  line-height: var(--h1-2-ln);
+  color: var(--white-color);
+  max-width: 26.8rem;
+}
+.lets-talk-title p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--white-color);
+  max-width: 45.9rem;
+  padding-top: 2rem;
+}
+.lets-talk-btn {
+  z-index: 1;
+}
+.designo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10.2rem;
+  margin-bottom: 4rem;
+  margin-top: 35rem;
+}
+.menu-footer {
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+}
+.menu-footer a {
+  color: var(--white-color);
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  letter-spacing: var(--h2-ls);
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.designo img {
+  width: 19.6rem;
+  height: 2.4rem;
+}
+.line {
+  display: block;
+  border: 1px solid var(--dark-gray);
+  width: 111.1rem;
+}
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 3rem;
+  color: var(--white-color);
+  padding-bottom: 7.2rem;
+}
+.address,
+.contact {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  opacity: 50%;
+}
+.web-sites {
+  display: flex;
+  gap: 1.6rem;
+}

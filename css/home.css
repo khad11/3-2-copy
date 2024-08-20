@@ -1,0 +1,115 @@
+@import "../css/navigation.css";
+@import "../css/global.css";
+@import "./button.css";
+@import "./footer.css";
+.award-winning-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--peach-color);
+  border-radius: 10px;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-bottom: 16rem;
+  padding-left: 9.5rem;
+}
+.circle {
+  position: absolute;
+  left: 40.7rem;
+  top: 5px;
+}
+.award-winning-main h1 {
+  font-size: var(--h1-fs);
+  line-height: var(--h1-2-ln);
+  color: var(--white-color);
+}
+.award-winning-main p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  width: 54rem;
+
+  padding-top: 2.1rem;
+  color: var(--white-color);
+}
+.button {
+  padding-top: 4rem;
+}
+.design-main {
+  display: flex;
+  gap: 3rem;
+}
+.web-design,
+.app-design,
+.graphic-design {
+  text-align: center;
+  color: var(--white-color);
+  border-radius: 10px;
+  width: 54.1rem;
+}
+
+.app-fraphic-design {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.web-design {
+  background-image: url(../images/home/desktop//image-web-design-large.jpg);
+  height: 64rem;
+}
+.web-design h2 {
+  padding-top: 32rem;
+}
+
+.web-design h2,
+.app-design h2,
+.graphic-design h2 {
+  font-size: var(--h2-fs);
+  line-height: var(--h1-2-ln);
+}
+.app-design,
+.graphic-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.web-design p,
+.app-design p,
+.graphic-design p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  letter-spacing: var(--h3-ls);
+}
+.app-design {
+  height: 30.8rem;
+  background-image: url(../images/home/desktop/image-app-design.jpg);
+}
+.graphic-design {
+  background-image: url(../images/home/desktop/image-graphic-design.jpg);
+  height: 30.8rem;
+}
+.passionate-resourceful-frendly-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16rem;
+}
+.passionate-resourceful-frendly {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 35rem;
+}
+.passionate-resourceful-frendly h3 {
+  font-size: var(--h3-fs);
+  line-height: 2.6rem;
+  padding-top: 4.8rem;
+  padding-bottom: 3.2rem;
+  text-transform: uppercase;
+}
+.passionate-resourceful-frendly p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--dark-gray);
+}

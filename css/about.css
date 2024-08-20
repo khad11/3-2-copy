@@ -1,0 +1,127 @@
+@import "./navigation.css";
+@import "./global.css";
+@import "./footer.css";
+
+.about-us-main {
+  padding-left: 9.5rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: center;
+  background-color: var(--peach-color);
+  border-radius: 1.5rem;
+  margin-bottom: 16rem;
+}
+.about-us-title h1 {
+  font-size: var(--h1-fs);
+  line-height: var(--h1-2-ln);
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+.about-us-title p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--white-color);
+  max-width: 45.8rem;
+  padding-top: 3.2rem;
+}
+.about-bg {
+  position: absolute;
+  bottom: 10px;
+  left: -0px;
+}
+.main-bg-about {
+  z-index: 1;
+}
+
+.world-class-talent-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: var(--dark-white);
+  border-radius: 1.5rem;
+  margin-bottom: 16rem;
+}
+.world-class-talent-title {
+  padding-right: 9.4rem;
+}
+.world-class-talent-main-img {
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  max-width: 47.6rem;
+  max-height: 60rem;
+  z-index: 1;
+}
+.world-class-talent-main-bg {
+  position: absolute;
+  left: 30rem;
+  bottom: -1px;
+}
+.world-class-talent-title h2,
+.the-real-deal-main-title h2 {
+  font-size: var(--h2-fs);
+  line-height: var(--h1-2-ln);
+  color: var(--peach-color);
+  padding-bottom: 2.4rem;
+}
+.world-class-talent-title p,
+.the-real-deal-main-title p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--dark-gray);
+  max-width: 44.5rem;
+}
+.canada-australia-uk-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16rem;
+}
+.canada-australia-uk {
+  text-align: center;
+}
+.canada-australia-uk-images {
+  width: 20.2rem;
+  height: 20.2rem;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.1) 0%,
+    rgba(93, 2, 2, 0.1) 100%
+  );
+}
+.canada-australia-uk h3 {
+  font-size: var(--h3-fs);
+  line-height: var(--h3-ln);
+  color: var(--dark-gray);
+  letter-spacing: var(--h3-ls);
+  text-transform: uppercase;
+  padding-top: 4.8rem;
+  padding-bottom: 3.2rem;
+}
+.the-real-deal-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: var(--dark-white);
+  border-radius: 1.5rem;
+  margin-bottom: 16rem;
+}
+.the-real-deal-main-title {
+  padding-left: 9.4rem;
+}
+.the-real-deal-main-img {
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  max-width: 47.6rem;
+  max-height: 60rem;
+  z-index: 1;
+}
+.the-real-deal-main-bg {
+  position: absolute;
+  left: 30rem;
+  bottom: -1px;
+}
