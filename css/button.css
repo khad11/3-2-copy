@@ -16,6 +16,7 @@
 }
 .btn-on-dark {
   background-color: var(--white-color);
+  color: var(--peach-color);
 }
 .btn-on-light {
   background-color: var(--peach-color);
