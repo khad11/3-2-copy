@@ -68,3 +68,27 @@ input::placeholder {
 .designo {
   margin-top: 0;
 }
+
+/* tablet uchun responsive */
+@media screen and (max-width: 950px) {
+  .contact-title {
+    width: 100%;
+    padding: 7.1rem 5.8rem 4rem 5.8rem;
+  }
+  .form {
+    margin: 0 auto;
+    flex-direction: column;
+    max-height: max-content;
+    align-items: center;
+    max-width: 92rem;
+  }
+  .labels {
+    padding: 0 5.8rem;
+    /* max-width: 57.3rem; */
+  }
+}
+@media screen and (max-width: 600px) {
+  .icon-hamburger {
+    display: block;
+  }
+}
