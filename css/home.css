@@ -38,6 +38,7 @@
   display: flex;
   gap: 3rem;
 }
+
 .web-design,
 .app-design,
 .graphic-design {
@@ -112,4 +113,154 @@
   font-size: var(--p-fs);
   line-height: var(--p-ln);
   color: var(--dark-gray);
+}
+.icon-hamburger {
+  display: none;
+}
+
+/* tablet uchun responsive */
+
+@media screen and (max-width: 1049px) {
+  .award-winning-main {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  .button {
+    position: relative;
+    z-index: 1;
+  }
+  .award-winning-main h1 {
+    max-width: 57.3rem;
+    width: 100%;
+    padding-top: 6rem;
+  }
+  .circle {
+    left: 45.7rem;
+    top: 109px;
+  }
+  .award-winning-main p {
+    max-width: 57.3rem;
+    /* width: 80%; */
+    text-align: center;
+  }
+  .award-winning-main img:first-of-type {
+    margin-bottom: -15rem;
+  }
+  .design-main {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .web-design,
+  .app-design,
+  .graphic-design {
+    background-image: url(../images/home/tablet/image-web-design.jpg);
+    background-repeat: no-repeat;
+    /* max-width: 68.9em; */
+    max-height: 20rem;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .web-design h2 {
+    padding-top: 0;
+    text-align: center;
+  }
+  .app-design {
+    background-image: url(../images/home/tablet/image-app-design.jpg);
+  }
+  .graphic-design {
+    background-image: url(../images/home/tablet/image-graphic-design.jpg);
+  }
+}
+/* tablet uchun davomi */
+@media screen and (max-width: 850px) {
+  .lets-talk-main {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .lets-talk-title h2 {
+    max-width: 100%;
+    padding-top: 5.7rem;
+  }
+  .lets-talk-title p {
+    padding-bottom: 3.2rem;
+  }
+  .passionate-resourceful-frendly-main {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .passionate-resourceful-frendly {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .for-tablat-diiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-left: 4.8rem;
+    max-width: 43.84rem;
+    width: 100%;
+  }
+}
+/* mobile uchun */
+@media screen and (max-width: 700px) {
+  .lets-talk-btn {
+    padding-bottom: 6.4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .award-winning-main h1 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    max-width: 32.8rem;
+    margin: 0 auto;
+  }
+  .award-winning-main p {
+    max-width: 32.7rem;
+  }
+  .menu {
+    display: none;
+  }
+  .icon-hamburger {
+    display: inline;
+  }
+  .navigation img {
+    width: auto;
+  }
+  .passionate-resourceful-frendly {
+    flex-direction: column;
+  }
+  .for-tablat-diiv {
+    justify-content: center;
+    text-align: center;
+  }
+  .designo {
+    flex-direction: column;
+  }
+  .menu-footer {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .lets-talk-main {
+    margin-bottom: 54.2rem;
+  }
+  .nav-footer {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .circle {
+    left: 0.7rem;
+    top: 5.9rem;
+  }
 }

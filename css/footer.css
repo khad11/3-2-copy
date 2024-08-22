@@ -5,7 +5,8 @@ footer {
 
 .lets-talk-main {
   background-color: var(--peach-color);
-  width: 111.1rem;
+  max-width: 111.1rem;
+  width: 100%;
   position: absolute;
   height: 29.2rem;
   display: flex;
@@ -70,7 +71,7 @@ footer {
 .line {
   display: block;
   border: 1px solid var(--dark-gray);
-  width: 111.1rem;
+  max-width: 111.1rem;
 }
 .nav-footer {
   display: flex;

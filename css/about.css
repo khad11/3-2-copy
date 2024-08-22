@@ -125,3 +125,196 @@
   left: 30rem;
   bottom: -1px;
 }
+.icon-hamburger {
+  display: none;
+}
+.for-tablet-about-bg {
+  display: none;
+}
+.for-tablat-world-class-bg {
+  display: none;
+}
+.for-tablet-deal-img {
+  display: none;
+}
+.for-mb-about-hero {
+  display: none;
+}
+.for-mb-world-class-bg {
+  display: none;
+}
+.for-mb-deal-img {
+  display: none;
+}
+/* tablat uchun responsive */
+
+@media screen and (max-width: 1010px) {
+  * {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .world-class-talent-title {
+    padding-left: 9.4rem;
+  }
+  .the-real-deal-main-title {
+    padding-right: 9.4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-us-main {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-bg-about {
+    display: none;
+  }
+  .for-tablet-about-bg {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .about-us-main {
+    max-width: 69.8rem;
+    padding-left: 0;
+  }
+  .about-us-title {
+    text-align: center;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+    position: relative;
+    z-index: 1;
+  }
+  .about-bg {
+    left: -180px;
+  }
+  .world-class-talent-main-img {
+    display: none;
+  }
+  .for-tablat-world-class-bg {
+    display: block;
+  }
+  .world-class-talent-main {
+    flex-direction: column;
+    overflow: hidden;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .canada-australia-uk-main {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .for-tablet-deal-img {
+    display: block;
+  }
+  .the-real-deal-main-img {
+    display: none;
+  }
+  .the-real-deal-main {
+    flex-direction: column;
+    max-width: max-content;
+    overflow: hidden;
+  }
+  .the-real-deal-main-title {
+    text-align: center;
+    padding: 6.8rem 0 9.4rem 0;
+  }
+  .lets-talk-main {
+    flex-direction: column;
+    text-align: center;
+    height: 35rem;
+  }
+  .lets-talk-title {
+    padding: 5.7rem;
+  }
+  .lets-talk-btn {
+    padding-bottom: 5.7rem;
+  }
+}
+/* mobile uchun responsive */
+
+@media screen and (max-width: 600px) {
+  .about-us-title h1,
+  .world-class-talent-title h2,
+  .the-real-deal-main-title h2 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+  .menu {
+    display: none;
+  }
+  .icon-hamburger {
+    display: block;
+    width: auto;
+  }
+  .for-mb-about-hero {
+    display: block;
+    /* max-width: 37.5rem */
+  }
+  .for-tablet-about-bg {
+    display: none;
+  }
+  .about-us-main {
+    max-width: max-content;
+    width: 37.5rem;
+  }
+  .about-us-title {
+    padding: 6.4rem 2.4rem;
+  }
+
+  .for-tablat-world-class-bg {
+    display: none;
+  }
+  .for-mb-world-class-bg {
+    display: block;
+  }
+  .world-class-talent-main {
+    max-width: max-content;
+    width: 37.5rem;
+  }
+  .world-class-talent-title {
+    padding: 8rem 2.4rem;
+    text-align: center;
+  }
+  .for-mb-deal-img {
+    display: block;
+  }
+  .for-tablet-deal-img {
+    display: none;
+  }
+  .lets-talk-main {
+    margin-bottom: 33rem;
+    bottom: 30rem;
+  }
+  .the-real-deal-main {
+    width: 37.5rem;
+    max-width: max-content;
+  }
+  .the-real-deal-main-title {
+    padding: 8rem 2.4rem 10.5rem 2.4rem;
+  }
+  .designo {
+    flex-direction: column;
+  }
+  .menu-footer {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .nav-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .lets-talk-title {
+    padding: 1rem;
+  }
+  .lets-talk-main {
+    height: 40rem;
+  }
+}
