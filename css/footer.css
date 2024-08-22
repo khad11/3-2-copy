@@ -81,11 +81,27 @@ footer {
   color: var(--white-color);
   padding-bottom: 7.2rem;
 }
-.address,
-.contact {
+.contact a {
   font-size: var(--p-fs);
   line-height: var(--p-ln);
+  color: var(--white-color);
+}
+.contact h4 {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+}
+.address {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  color: var(--white-color);
+}
+.address,
+.contact {
   opacity: 50%;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
 }
 .web-sites {
   display: flex;

@@ -7,6 +7,7 @@
   align-items: center;
   padding-bottom: 3.2rem;
 }
+
 .canada-uk {
   padding: 8.8rem 9rem;
   width: 70rem;
@@ -22,7 +23,8 @@
   padding-bottom: 2.4rem;
   text-transform: capitalize;
 }
-.canada-uk p {
+.canada-uk p,
+.canada-uk a {
   font-size: var(--p-fs);
   line-height: var(--p-ln);
   color: var(--dark-gray);
@@ -36,7 +38,10 @@
   display: flex;
   justify-content: space-between;
 }
-
+.contact-location {
+  display: flex;
+  flex-direction: column;
+}
 .map-canada-uk img {
   border-radius: 1.5rem;
 }
@@ -44,4 +49,130 @@
   position: absolute;
   bottom: 0rem;
   left: 5rem;
+}
+.canada-mb-img {
+  display: none;
+}
+.australia-tablet-map {
+  display: none;
+}
+.uk-tablet-map {
+  display: none;
+}
+.icon-hamburger {
+  display: none;
+}
+/* tablet uchun responsive */
+@media screen and (max-width: 1049px) {
+  .canada-mb-img {
+    display: block;
+    border-radius: 1.5em;
+  }
+  .map-canada-uk {
+    display: none;
+  }
+  .canada-uk-main {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .australia-tablet-map {
+    display: block;
+    border-radius: 1.5em;
+  }
+  .uk-tablet-map {
+    display: block;
+    border-radius: 1.5em;
+  }
+}
+@media screen and (max-width: 860px) {
+  .lets-talk-main {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .lets-talk-main h2 {
+    width: 100%;
+    max-width: 57.3rem;
+  }
+}
+/*  */
+/* mobile uchun responsive  */
+/*  */
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+  .icon-hamburger {
+    display: inline;
+  }
+  .canada-mb-img,
+  .australia-tablet-map,
+  .uk-tablet-map {
+    max-width: 37.5rem;
+    height: 32rem;
+    border-radius: 0px;
+  }
+  .canada-uk-main {
+    gap: 0;
+  }
+  .canada-uk h1 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    padding: 6rem 0 2rem 0;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    padding-bottom: 8rem;
+  }
+  .canada-uk {
+    border-radius: 0;
+    width: 37.5rem;
+    padding: 0;
+  }
+  .lets-talk-main {
+    margin-bottom: 33rem;
+    bottom: 30rem;
+  }
+  .the-real-deal-main {
+    width: 37.5rem;
+    max-width: max-content;
+  }
+  .the-real-deal-main-title {
+    padding: 8rem 2.4rem 10.5rem 2.4rem;
+  }
+  .designo {
+    flex-direction: column;
+  }
+  .menu-footer {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .nav-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+@media screen and (max-width: 590px) {
+  .lets-talk-title {
+    padding: 1rem;
+  }
+  .lets-talk-main {
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .lets-talk-main {
+    height: 55rem;
+  }
+  .designo {
+    padding-top: 30.2rem;
+  }
 }
