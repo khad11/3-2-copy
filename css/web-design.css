@@ -1,0 +1,37 @@
+@import "./global.css";
+@import "./navigation.css";
+@import "./footer.css";
+
+/* iconkani yoq qildim */
+.icon-hamburger {
+  display: none;
+}
+/* web-design-main */
+.web-design-main {
+  background-color: var(--peach-color);
+  padding: 6.4rem 19rem;
+  text-align: center;
+  color: var(--white-color);
+  text-transform: capitalize;
+  border-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.web-design-main h1 {
+  position: relative;
+  z-index: 3;
+  font-size: var(--h1-fs);
+  line-height: var(--h1-2-ln);
+}
+.web-design-main p {
+  font-size: var(--p-fs);
+  line-height: var(--p-ln);
+  position: relative;
+  z-index: 4;
+}
+.five-circle {
+  position: absolute;
+  z-index: 1;
+  left: 23.8rem;
+  top: -18.2rem;
+}

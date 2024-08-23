@@ -89,6 +89,27 @@
   background-image: url(../images/home/desktop/image-graphic-design.jpg);
   height: 30.8rem;
 }
+.app-design:hover {
+  background-image: linear-gradient(
+      rgba(244, 69, 5, 0.5),
+      rgba(241, 86, 20, 0.5)
+    ),
+    url(../images/home/desktop/image-app-design.jpg);
+}
+.web-design:hover {
+  background-image: linear-gradient(
+      rgba(244, 69, 5, 0.5),
+      rgba(241, 86, 20, 0.5)
+    ),
+    url(../images/home/desktop/image-web-design-large.jpg);
+}
+.graphic-design:hover {
+  background-image: linear-gradient(
+      rgba(244, 69, 5, 0.5),
+      rgba(241, 86, 20, 0.5)
+    ),
+    url(../images/home/desktop/image-graphic-design.jpg);
+}
 .passionate-resourceful-frendly-main {
   display: flex;
   align-items: center;
